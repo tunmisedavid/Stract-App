@@ -1,0 +1,224 @@
+.get-started-form-sec {
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-started-wrap {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  border: 2px solid #2b59ff;
+  border-radius: 20px;
+  width: 400px;
+  z-index: 1;
+  position: absolute;
+  top: 120px;
+  display: flex;
+  overflow: hidden;
+  transform: scale(0);
+  transition: transform 0.8 ease;
+}
+.get-started-wrap.active-popup {
+  transform: scale(1);
+}
+.get-started-wrap.acitve-get-strt {
+  height: 600px;
+}
+.get-started-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  background-color: #162938;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+.get-startd-form.login {
+  transition: transform 0.8s ease;
+  transform: translateX(0);
+}
+.get-started-wrap.acitve-get-strt .get-startd-form.login {
+  position: absolute;
+  transform: translateX(-400px);
+}
+.get-startd-form.register {
+  position: absolute;
+  transform: translateX(400px);
+}
+.get-started-wrap.acitve-get-strt .get-startd-form.register {
+  transition: transform 0.8s ease;
+  transform: translateX(0);
+}
+.get-startd-form {
+  width: 100%;
+  padding: 20px;
+  color: var(--links-color-gra-ba);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.get-startd-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.input-box {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  border-bottom: 2px solid #2b59ff;
+}
+.input-box label {
+  position: absolute;
+  top: 70%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  transition: 0.4s;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: 3px;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  /* padding: ; */
+}
+.input-box .icon {
+  position: absolute;
+  right: 6px;
+  bottom: 5px;
+  font-size: 16px;
+}
+.remember-forgot {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.remember-forgot label input {
+  /* accent-color: #162938; */
+  margin-right: 3px;
+}
+.remember-forgot a {
+  color: var(--links-color-gra-ba);
+  text-decoration: none;
+  cursor: pointer;
+}
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+.get-login-btn {
+  width: 80%;
+  margin: auto;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--almost-black-12);
+  color: #fafafa;
+}
+.login-register {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.login-register p a {
+  color: var(--links-color-gra-ba);
+  text-decoration: none;
+  font-weight: 500;
+}
+.login-register p a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .get-started-wrap {
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+  }
+  .get-started-wrap.acitve-get-strt {
+    height: 330px;
+  }
+  .get-started-close {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    border-bottom-left-radius: 8px;
+  }
+  .get-started-wrap.acitve-get-strt .get-startd-form.login {
+    transform: translateX(-300px);
+  }
+  .get-startd-form.register {
+    transform: translateX(300px);
+  }
+  .get-startd-form {
+    padding: 10px;
+    gap: 10px;
+  }
+  .get-startd-form h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .get-startd-form form {
+    gap: 15px;
+  }
+  .input-box {
+    height: 20px;
+  }
+  .input-box label {
+    font-size: 12px;
+  }
+  .input-box input:focus ~ label,
+  .input-box input:valid ~ label {
+    top: 1px;
+  }
+  .input-box input {
+    font-size: 14px;
+  }
+  .input-box .icon {
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    font-size: 12px;
+  }
+  .remember-forgot {
+    font-size: 12px;
+  }
+  .get-login-btn {
+    width: 60%;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  .login-register {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .get-started-wrap{
+    width: 250px;
+  } 
+}

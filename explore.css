@@ -1,0 +1,202 @@
+.explore-sect {
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.exolplore-head {
+  color: #12141d;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 600;
+}
+.explore-head-blue {
+  color: #2b59ff;
+}
+.explore-data-anly {
+  color: #4b4b4b;
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.explore-cards-cnt {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.explore-cards {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #e3e3e3;
+}
+.explore-cards:hover {
+  background-color: #2b59ff;
+}
+.explore-cards:hover > .explore-card-icons-cnt {
+  background-color: #fff;
+}
+.explore-cards:hover > .explore-security-test,
+.explore-cards:hover > .explore-security-test-info {
+  color: #fff;
+}
+.explore-card-icons-cnt {
+  background-color: #fafafa;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.explore-icons {
+  width: 25px;
+}
+.explore-security-test {
+  color: #12141d;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.explore-security-test-info {
+  color: #8a8a8a;
+  font-size: 16px;
+  width: 90%;
+}
+
+@media screen and (max-width: 1200px) {
+  .explore-sect {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    gap: 25px;
+  }
+  .exolplore-head {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .explore-data-anly {
+    font-size: 16px;
+  }
+  .explore-cards-cnt {
+    gap: 15px;
+  }
+  .explore-cards {
+    padding: 10px;
+    border-radius: 3px;
+  }
+  .explore-card-icons-cnt {
+    background-color: #fafafa;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+  }
+  .explore-icons {
+    width: 22px;
+  }
+  .explore-security-test {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .explore-security-test-info {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .explore-sect {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+  .exolplore-head {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .explore-data-anly {
+    font-size: 14px;
+  }
+  .explore-cards-cnt {
+    gap: 10px;
+  }
+  .explore-cards {
+    padding: 10px;
+    border-radius: 3px;
+  }
+  .explore-card-icons-cnt {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+  }
+  .explore-icons {
+    width: 18px;
+  }
+  .explore-security-test {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .explore-security-test-info {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .explore-cards-cnt {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .explore-sect {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    gap: 12px;
+  }
+  .exolplore-head {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .explore-data-anly {
+    font-size: 12px;
+  }
+  .explore-cards-cnt {
+    gap: 10px;
+  }
+  .explore-card-icons-cnt {
+    height: 28px;
+    width: 28px;
+  }
+  .explore-icons {
+    width: 16px;
+  }
+  .explore-security-test {
+    font-size: 12px;
+  }
+  .explore-security-test-info {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .explore-sect {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  .exolplore-head {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .explore-data-anly {
+    width: 70%;
+  }
+  .explore-cards-cnt {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,267 @@
+.how-strat-inner {
+  width: 85%;
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.how-tract-works {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  color: #12141d;
+}
+.how-stract-info {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4b4b4b;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.how-stract2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+  margin-top: 30px;
+}
+.stract2-columns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.stract2-col-round-cnt-com {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.stract2-col-round-cnt-blue {
+  background-color: #2b59ff;
+}
+.stract2-col-round-cnt-purp,
+.round-number-purp {
+  background-color: #6f4be5;
+}
+.stract2-col-round-cnt-blck,
+.round-number-blck {
+  background-color: #12141d;
+}
+.round-number-com {
+  color: white;
+  border: 3px solid white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -5px;
+  top: 10px;
+}
+.round-number-blue {
+  background-color: #2b59ff;
+}
+.how-round-img {
+  width: 44px;
+}
+.how-stract-ensure {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #12141d;
+}
+.how-ensure-sub {
+  font-size: 16px;
+  text-align: center;
+  width: 80%;
+  line-height: 22px;
+  color: #8a8a8a;
+  font-weight: 400;
+}
+.how-stract-arrow {
+  width: 120px;
+}
+.how-stract-arrow1 {
+  position: absolute;
+  top: 60px;
+  left: 28%;
+}
+.how-stract-arrow2 {
+  position: absolute;
+  top: 60px;
+  right: 28%;
+}
+
+@media screen and (max-width: 1240px) {
+  .how-strat-inner {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    gap: 6px;
+  }
+  .how-tract-works {
+    font-size: 28px;
+  }
+  .how-stract-info {
+    font-size: 14px;
+    width: 60%;
+  }
+  .how-stract2 {
+    margin-top: 20px;
+    gap: 8px;
+  }
+  .stract2-columns {
+    gap: 10px;
+  }
+  .stract2-col-round-cnt-com {
+    width: 80px;
+    height: 80px;
+  }
+  .round-number-com {
+    border: 2px solid white;
+    width: 25px;
+    height: 25px;
+    right: -3px;
+    top: 8px;
+  }
+  .how-round-img {
+    width: 34px;
+  }
+  .how-stract-ensure {
+    font-size: 18px;
+  }
+  .how-ensure-sub {
+    font-size: 14px;
+    line-height: 18px;
+    width: 70%;
+  }
+  .how-stract-arrow {
+    width: 80px;
+  }
+  .how-stract-arrow1 {
+    top: 40px;
+    left: 30%;
+  }
+  .how-stract-arrow2 {
+    top: 40px;
+    right: 30%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .how-strat-inner {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    gap: 6px;
+  }
+  .how-tract-works {
+    font-size: 20px;
+  }
+  .how-stract-info {
+    font-size: 12px;
+  }
+  .how-stract2 {
+    margin-top: 15px;
+    gap: 5px;
+  }
+  .stract2-columns {
+    gap: 8px;
+  }
+  .stract2-col-round-cnt-com {
+    width: 60px;
+    height: 60px;
+  }
+  .round-number-com {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    right: -3px;
+    top: 8px;
+  }
+  .how-round-img {
+    width: 22px;
+  }
+  .how-stract-ensure {
+    font-size: 14px;
+  }
+  .how-ensure-sub {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .how-stract-arrow {
+    width: 50px;
+  }
+  .how-stract-arrow1 {
+    top: 30px;
+    left: 30%;
+  }
+  .how-stract-arrow2 {
+    top: 30px;
+    right: 30%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .how-strat-inner {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    gap: 4px;
+  }
+  .how-tract-works {
+    font-size: 14px;
+  }
+  .how-stract-info {
+    font-size: 10px;
+  }
+  .how-stract2 {
+    margin-top: 10px;
+    gap: 3px;
+  }
+  .stract2-columns {
+    gap: 8px;
+  }
+  .stract2-col-round-cnt-com {
+    width: 45px;
+    height: 45px;
+  }
+  .round-number-com {
+    width: 14px;
+    height: 14px;
+    font-size: 8px;
+    right: -3px;
+    top: 6px;
+  }
+  .how-round-img {
+    width: 18px;
+  }
+  .how-stract-ensure {
+    font-size: 12px;
+  }
+  .how-ensure-sub {
+    font-size: 8px;
+    line-height: 12px;
+    width: 95%;
+  }
+  .how-stract-arrow {
+    width: 30px;
+  }
+  .how-stract-arrow1 {
+    top: 20px;
+    left: 30%;
+  }
+  .how-stract-arrow2 {
+    top: 20px;
+    right: 30%;
+  }
+}
+

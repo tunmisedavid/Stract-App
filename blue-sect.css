@@ -1,0 +1,128 @@
+.blue-sect {
+  background-color: #2b59ff;
+  width: 80%;
+  max-width: 1500px;
+  border-radius: 8px;
+  height: 280px;
+  margin: auto;
+  display: grid;
+  place-content: center;
+  z-index: 1;
+  position: relative;
+}
+.blue-ready-start {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+.blue-ready-s-sub {
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.blue-contact-us {
+  width: 160px;
+  height: 50px;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 25px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #12141d;
+  color: #fafafa;
+}
+
+@media screen and (max-width: 1200px) {
+  .blue-sect {
+    height: 220px;
+  }
+  .blue-ready-start {
+    font-size: 24px;
+  }
+  .blue-ready-s-sub {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+  }
+  .blue-contact-us {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .blue-sect {
+    height: 200px;
+    border-radius: 5px;
+  }
+  .blue-ready-start {
+    font-size: 20px;
+  }
+  .blue-ready-s-sub {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5px;
+  }
+  .blue-contact-us {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blue-sect {
+    height: 160px;
+    border-radius: 3px;
+  }
+  .blue-ready-start {
+    font-size: 16px;
+  }
+  .blue-ready-s-sub {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 5px;
+  }
+  .blue-contact-us {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 12px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blue-sect {
+    height: 120px;
+    border-radius: 2px;
+  }
+  .blue-ready-start {
+    font-size: 12px;
+  }
+  .blue-ready-s-sub {
+    font-size: 8px;
+    line-height: 10px;
+    margin-top: 4px;
+  }
+  .blue-contact-us {
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 8px;
+  }
+}
